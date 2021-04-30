@@ -1,0 +1,5 @@
+- [x] pradine failu struktura
+- [x] dizaino analize
+- [x] html
+- [ ] css
+- [ ] images
