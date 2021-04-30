@@ -7,22 +7,41 @@ body *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header {
-
+        display: inline-block;
+        width: 800px;
+        margin-top: 50px;
+        margin-left: calc(50% - 400px);
 }
 header > .logo {
-
+    display: inline-block;
+    float: left;
+    width: 8%;
+    position: relative;
+}
+.menu-container {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    position: relative;
 }
 .menu {
-
+    display: inline-block;
+    float: left;
 }
 .menu > a {
-
+    
+    float: left;
 }
 .icons > a {
+    
+    float: left;
     color: red;
 }
 .container {
-background-color: silver;
+        display: inline-block;
+        width: 800px;
+        margin-left: calc(50% - 400px);
+        background-color: silver;
 }
 .left-column {
 
