@@ -9,9 +9,9 @@ Paulius B. self learning website project_
 
 This project is for learning porpuses only. Thank you for your visit!
 
-Site published [here](https://cdn.discordapp.com/attachments/833468929020133416/837382482030100510/unknown.png/)
+Site published [here](https://scarab911.github.io/8-praktika/)
 
-Design: [Adidas](#)
+Design: [Adidas](https://cdn.discordapp.com/attachments/833468929020133416/837382482030100510/unknown.png/)
 
 ## Project features
 
