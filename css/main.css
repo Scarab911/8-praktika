@@ -58,7 +58,7 @@ header > .logo {
     width: 800px;
     margin-left: calc(50% - 400px);
     margin-top: 30px;
-    background-image: url(/img/adidas-shoes1.png);
+    background-image: url(../img/adidas-shoes1.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
