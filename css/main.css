@@ -136,5 +136,13 @@ font-weight: bold;
     display: inline-block;
     position: absolute;
     top: 25%;
-    right: 0% 
+    right: -10% 
+}
+
+.social-media-icons > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: 10px;
 }
