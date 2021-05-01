@@ -115,7 +115,9 @@ h1 {
     float: left;
     position: absolute;
     left: 0%;
-    bottom: 0%;
+    bottom: 5%;
+    border-bottom: 2px red solid;
+    height: 30px;
 }
 .slider-text > p {
 display: inline-block;
