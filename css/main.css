@@ -13,12 +13,13 @@ header {
     display: inline-block;
     width: 800px;
     margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: calc(50% - 400px);
 }
 header > .logo {
     display: inline-block;
     float: left;
-    width: 8%;
+    height: 60px;
 }
 .menu-container {
     display: inline-block;
@@ -57,25 +58,29 @@ header > .logo {
     display: inline-block;
     width: 800px;
     margin-left: calc(50% - 400px);
-    margin-top: 30px;
+    height: calc(100vh - 120px);
     background-image: url(../img/adidas-shoes1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right center;
     position: relative;
-    height: 100vh;
+    
 }
 .left-column {
-    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 50%;
+    min-width: 200px;
+    max-width: 500px;
     position: absolute;
-    top: 10%;
-    left: 0%;
+    top: calc(50% - 40px);
+    transform: translateY(-50%);
 }
 h1 {
     color: #C50720;
     font-size: 50px;
-    line-height: 90px;
+    line-height: 70px;
 }
 .left-column > p {
     color: #586878;
@@ -85,54 +90,55 @@ h1 {
 }
 .left-column > p:last-of-type {
     font-size: 24px;
-    line-height: 60px;
+    line-height: 30px;
 }
 .shop-button {
-    display: inline-block;
-    float: left;
-    margin-top: 20px;
+    display: flex;
+    width: 176px;
+    padding: 10px 25px ;
     background-color: #C50720;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
 }
 .shop-button > span {
+    display: flex;
     font-size: 18px;
-    padding: 10px 25px;
     line-height: 18px;
-    border: 2px solid black;
-    border-right: 0;
-    float: left;
 }
 .shop-button > i {
+    display: flex;
     font-size: 18px;
+    line-height: 18px;
     background-color: #2A2335;
-    padding: 10px;
-    border: 2px solid black;
 }
 .slider {
-    display: inline-block;
-    width: 176px;
-    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 200px;
     position: absolute;
     left: 0%;
-    bottom: -80%;
-    border-bottom: 2px red solid;
-    height: 30px;
+    bottom: 0%;
 }
-.slider-text > p {
-display: inline-block;
-color: red;
-font-weight: bold;
-}
-.slider-text > p:last-of-type {
+.slider > .slider-text {
     display: inline-block;
-    float: right;
+    width: 100%;
+    justify-content: space-between;
+    color: red;
 }
 .line {
+    display: inline-block;
+    background-color: rgb(128, 48, 48);
+    width: 100%;
+    height: 5px;
 
 }
-.linebar {
+.line > .linebar {
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    width: 25%;
+    height: 100%;
 
 }
 .social-media-icons {
@@ -140,8 +146,9 @@ font-weight: bold;
     gap: 20px;
     flex-direction: column;
     position: absolute;
-    top: 15%;
+    top: calc(50% - 40px);
     right: 0%;
+    transform: translateY(-50%);
 }
 .social-media-icons > .fa {
     padding: 5px;
