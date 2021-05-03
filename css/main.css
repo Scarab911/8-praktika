@@ -136,8 +136,18 @@ font-weight: bold;
 
 }
 .social-media-icons {
-    display: inline-block;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
     position: absolute;
     top: 15%;
-    right: 0% 
+    right: 0%;
 }
+.social-media-icons > .fa {
+    padding: 5px;
+    border: solid #2E2C31 2px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #2E2C31;
+}
+   
