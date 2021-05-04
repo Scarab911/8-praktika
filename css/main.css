@@ -69,7 +69,7 @@ header > .logo {
     float: left;
     width: 50%;
     position: absolute;
-    top: 25%;
+    top: 10%;
     left: 0%;
 }
 h1 {
@@ -78,11 +78,12 @@ h1 {
     line-height: 90px;
 }
 .left-column > p {
-    color: #566373;
+    color: #586878;
     font-size: 15px;
     line-height: 24px;
+    font-weight: bolder;
 }
-.left-column >p:last-of-type {
+.left-column > p:last-of-type {
     font-size: 24px;
     line-height: 60px;
 }
@@ -115,7 +116,9 @@ h1 {
     float: left;
     position: absolute;
     left: 0%;
-    bottom: 0%;
+    bottom: -80%;
+    border-bottom: 2px red solid;
+    height: 30px;
 }
 .slider-text > p {
 display: inline-block;
